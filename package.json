@@ -1,0 +1,19 @@
+{
+  "name": "smooth-criminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=* && npm run dev",
+    "dev": "NODE_ENV=development eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "httpie": "^1.1.2",
+    "node-fetch": "^2.6.7"
+  }
+}
